@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.examon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExamON">
+        <activity
+            android:name=".HomeChem"
+            android:exported="false" />
+        <activity
+            android:name=".HomePhysic"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".quizz"
+            android:exported="false" />
+        <activity
+            android:name=".mhtcetSyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".mhtcetSamplePaper"
+            android:exported="false" />
+        <activity
+            android:name=".jeeSamplePaper"
+            android:exported="false" />
+        <activity
+            android:name=".pdfViewerPrevYearNeet"
+            android:exported="false" />
+        <activity
+            android:name=".samplePaperNeet"
+            android:exported="false" />
+        <activity
+            android:name=".prevPaperNeet"
+            android:exported="false" />
+        <activity
+            android:name=".SyllabusNeet"
+            android:exported="false" />
+        <activity
+            android:name=".jeeSyllabusPdfViewer"
+            android:exported="false" />
+        <activity
+            android:name=".SyllabusJee"
+            android:exported="false" />
+        <activity
+            android:name=".prevPaperJee"
+            android:exported="false" />
+        <activity
+            android:name=".pdfViewerJee"
+            android:exported="false" />
+        <activity
+            android:name=".todoList"
+            android:exported="false" />
+        <activity
+            android:name=".NeetHome"
+            android:exported="false" />
+        <activity
+            android:name=".jeeHome"
+            android:exported="false" />
+        <activity
+            android:name=".prevPaper"
+            android:exported="false" />
+        <activity
+            android:name=".pdfViewer"
+            android:exported="false" />
+        <activity
+            android:name=".MhtcetHome"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
