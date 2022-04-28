@@ -13,5 +13,9 @@
         android:id="@+id/exit"
         android:title="Exit"
         />
+    <item
+        android:id="@+id/joinUs"
+        android:title="Join US"
+        />
 
 </menu>

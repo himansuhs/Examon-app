@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -38,6 +39,10 @@ public class Home extends AppCompatActivity {
             if(id==R.id.exit){
                 finish();
             }
+            if(id==R.id.joinUs){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/examonhs"));
+                startActivity(intent);
+            }
 
         return super.onOptionsItemSelected(item);
     }
@@ -47,6 +52,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         btMht = (Button) findViewById(R.id.btMhtCet);
+
         btJee =(Button) findViewById(R.id.btJee);
         btNeet =(Button) findViewById(R.id.btNeet);
         todo =(Button) findViewById(R.id.todo);

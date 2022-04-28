@@ -2,9 +2,7 @@ package com.example.examon.db;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by vivekraja07 on 9/3/17.
- */
+
 
 public class Task {
 
